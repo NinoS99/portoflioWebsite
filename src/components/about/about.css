@@ -2,6 +2,8 @@
     height: 90vh;
     display: flex;
     align-items: center;
+    padding: 200px, 150px;
+    margin-top: 5%;
   }
   
   .a-left {
