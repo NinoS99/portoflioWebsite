@@ -1,7 +1,7 @@
 import React from 'react';
 import './intro.css'
 import headshot from '../../img/headshot.png'
-import resume from '../../assets/Resume_Nino_Spasik_Sept2022.pdf'
+import resume from '../../assets/ninoSpasikResume.pdf'
 import { FaLinkedin, FaEnvelope, FaFile, FaGithub } from "react-icons/fa"
 import { IconContext } from "react-icons"
 
