@@ -1,0 +1,82 @@
+.p {
+    width: 30%;
+    height: 100%;
+    margin: 20px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .p-browser {
+    height: 20px;
+    background-color: rgb(255, 127, 80);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .p-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+  }
+
+  .p-title{
+    font-weight: 1000;
+  }
+  
+  .p-img {
+    width: 25vh;
+    height: auto;
+    position: static;
+
+  }
+
+  .p-img-wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .p-img-description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: grey;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .p-desc{
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 8px;
+    margin-top: 0%;
+    align-self: center;
+  }
+
+  .p-img-wrap:hover .p-img-description {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .p {
+      width: 40%;
+      height: 100%;
+    }
+  }
